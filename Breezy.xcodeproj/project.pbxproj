@@ -1,0 +1,342 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C86BA1FE16C6F4FE002585E1 /* geoloc-arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = C86BA1FD16C6F4FE002585E1 /* geoloc-arrow.png */; };
+		C88E827816B9A6D500562CCE /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C88E827716B9A6D500562CCE /* CoreLocation.framework */; };
+		C8E5A0CC16BB1CFE0033E28D /* Icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = C8E5A0CB16BB1CFE0033E28D /* Icon.icns */; };
+		D927A6A714264D8700277174 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D927A6A614264D8700277174 /* Cocoa.framework */; };
+		D927A6B114264D8700277174 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D927A6AF14264D8700277174 /* InfoPlist.strings */; };
+		D927A6B314264D8700277174 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D927A6B214264D8700277174 /* main.m */; };
+		D927A6B714264D8700277174 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = D927A6B514264D8700277174 /* Credits.rtf */; };
+		D927A6BA14264D8700277174 /* BreezyAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D927A6B914264D8700277174 /* BreezyAppDelegate.m */; };
+		D927A6BD14264D8700277174 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D927A6BB14264D8700277174 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C86BA1FD16C6F4FE002585E1 /* geoloc-arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "geoloc-arrow.png"; sourceTree = "<group>"; };
+		C88E827716B9A6D500562CCE /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		C8E5A0CB16BB1CFE0033E28D /* Icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = Icon.icns; path = ../Icon.icns; sourceTree = "<group>"; };
+		D927A6A214264D8700277174 /* Breezy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Breezy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D927A6A614264D8700277174 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		D927A6A914264D8700277174 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		D927A6AA14264D8700277174 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		D927A6AB14264D8700277174 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D927A6AE14264D8700277174 /* Breezy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Breezy-Info.plist"; sourceTree = "<group>"; };
+		D927A6B014264D8700277174 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D927A6B214264D8700277174 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D927A6B414264D8700277174 /* Breezy-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Breezy-Prefix.pch"; sourceTree = "<group>"; };
+		D927A6B614264D8700277174 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		D927A6B814264D8700277174 /* BreezyAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BreezyAppDelegate.h; sourceTree = "<group>"; };
+		D927A6B914264D8700277174 /* BreezyAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BreezyAppDelegate.m; sourceTree = "<group>"; };
+		D927A6BC14264D8700277174 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D927A69F14264D8700277174 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C88E827816B9A6D500562CCE /* CoreLocation.framework in Frameworks */,
+				D927A6A714264D8700277174 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D927A69714264D8700277174 = {
+			isa = PBXGroup;
+			children = (
+				D927A6AC14264D8700277174 /* Breezy */,
+				D927A6A514264D8700277174 /* Frameworks */,
+				D927A6A314264D8700277174 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D927A6A314264D8700277174 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D927A6A214264D8700277174 /* Breezy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D927A6A514264D8700277174 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C88E827716B9A6D500562CCE /* CoreLocation.framework */,
+				D927A6A614264D8700277174 /* Cocoa.framework */,
+				D927A6A814264D8700277174 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D927A6A814264D8700277174 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D927A6A914264D8700277174 /* AppKit.framework */,
+				D927A6AA14264D8700277174 /* CoreData.framework */,
+				D927A6AB14264D8700277174 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		D927A6AC14264D8700277174 /* Breezy */ = {
+			isa = PBXGroup;
+			children = (
+				D927A6B814264D8700277174 /* BreezyAppDelegate.h */,
+				D927A6B914264D8700277174 /* BreezyAppDelegate.m */,
+				D927A6BB14264D8700277174 /* MainMenu.xib */,
+				D927A6AD14264D8700277174 /* Supporting Files */,
+			);
+			path = Breezy;
+			sourceTree = "<group>";
+		};
+		D927A6AD14264D8700277174 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C86BA1FD16C6F4FE002585E1 /* geoloc-arrow.png */,
+				C8E5A0CB16BB1CFE0033E28D /* Icon.icns */,
+				D927A6AE14264D8700277174 /* Breezy-Info.plist */,
+				D927A6AF14264D8700277174 /* InfoPlist.strings */,
+				D927A6B214264D8700277174 /* main.m */,
+				D927A6B414264D8700277174 /* Breezy-Prefix.pch */,
+				D927A6B514264D8700277174 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D927A6A114264D8700277174 /* Breezy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D927A6D514264D8700277174 /* Build configuration list for PBXNativeTarget "Breezy" */;
+			buildPhases = (
+				D927A69E14264D8700277174 /* Sources */,
+				D927A69F14264D8700277174 /* Frameworks */,
+				D927A6A014264D8700277174 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Breezy;
+			productName = Breezy;
+			productReference = D927A6A214264D8700277174 /* Breezy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D927A69914264D8700277174 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Sertac Ozercan";
+			};
+			buildConfigurationList = D927A69C14264D8700277174 /* Build configuration list for PBXProject "Breezy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D927A69714264D8700277174;
+			productRefGroup = D927A6A314264D8700277174 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D927A6A114264D8700277174 /* Breezy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D927A6A014264D8700277174 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D927A6B114264D8700277174 /* InfoPlist.strings in Resources */,
+				D927A6B714264D8700277174 /* Credits.rtf in Resources */,
+				D927A6BD14264D8700277174 /* MainMenu.xib in Resources */,
+				C8E5A0CC16BB1CFE0033E28D /* Icon.icns in Resources */,
+				C86BA1FE16C6F4FE002585E1 /* geoloc-arrow.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D927A69E14264D8700277174 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D927A6B314264D8700277174 /* main.m in Sources */,
+				D927A6BA14264D8700277174 /* BreezyAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D927A6AF14264D8700277174 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D927A6B014264D8700277174 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D927A6B514264D8700277174 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D927A6B614264D8700277174 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		D927A6BB14264D8700277174 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D927A6BC14264D8700277174 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D927A6D314264D8700277174 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D927A6D414264D8700277174 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D927A6D614264D8700277174 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Breezy/Breezy-Prefix.pch";
+				GCC_VERSION = "";
+				INFOPLIST_FILE = "Breezy/Breezy-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sertacozercan.breezy;
+				PRODUCT_NAME = Breezy;
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D927A6D714264D8700277174 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Breezy/Breezy-Prefix.pch";
+				GCC_VERSION = "";
+				INFOPLIST_FILE = "Breezy/Breezy-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sertacozercan.breezy;
+				PRODUCT_NAME = Breezy;
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D927A69C14264D8700277174 /* Build configuration list for PBXProject "Breezy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D927A6D314264D8700277174 /* Debug */,
+				D927A6D414264D8700277174 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D927A6D514264D8700277174 /* Build configuration list for PBXNativeTarget "Breezy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D927A6D614264D8700277174 /* Debug */,
+				D927A6D714264D8700277174 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D927A69914264D8700277174 /* Project object */;
+}
